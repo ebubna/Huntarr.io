@@ -29,7 +29,7 @@ function update_script() {
     exit
   fi
 
-  PYTHON_VERSION="3.12" setup_uv
+  PYTHON_VERSION="3.14" setup_uv
 
   if check_for_gh_release "huntarr" "ebubna/Huntarr.io"; then
     msg_info "Stopping Service"
