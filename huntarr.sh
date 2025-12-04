@@ -40,6 +40,7 @@ function update_script() {
 
     msg_info "Updating Huntarr"
     cd /opt/huntarr
+    echo -e "installing huntarr -eb"
     $STD uv pip install -r requirements.txt --python /opt/huntarr/.venv/bin/python
     msg_ok "Updated Huntarr"
 
