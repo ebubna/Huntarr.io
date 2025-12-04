@@ -3,7 +3,7 @@ source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxV
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: BiluliB
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
-# Source: https://github.com/plexguide/Huntarr.io
+# Source: https://github.com/ebubna/Huntarr.io
 
 APP="huntarr"
 var_tags="${var_tags:-arr}"
