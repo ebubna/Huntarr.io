@@ -1189,7 +1189,7 @@ def get_github_sponsors():
                 manifest_data = json.load(f)
         else:
             # Fallback to GitHub raw content
-            manifest_url = "https://raw.githubusercontent.com/plexguide/Huntarr.io/main/manifest.json"
+            manifest_url = "https://raw.githubusercontent.com/ebubna/Huntarr.io/main/manifest.json"
             current_app.logger.debug(f"Local manifest not found, fetching from {manifest_url}")
             response = requests.get(manifest_url, timeout=10)
             response.raise_for_status()
